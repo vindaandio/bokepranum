@@ -88,18 +88,18 @@ export default async function Video({ params }: PageProps) {
         name: `Bokep ${file.title}`,
         image: file.splash_img,
         description: `Video Bokep ${file.title} di ${SITENAME} Video Bokep Indo Bocil Ngentot Jilbab Smp Mama Viral`,
-        url: `https://abgsquirt.pages.dev/v/${file.filecode}`,
+        url: `https://bokepranum.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://abgsquirt.pages.dev/favicon.ico'},
+            logo: 'https://bokepranum.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://abgsquirt.pages.dev'
+                url: 'https://bokepranum.pages.dev'
               }
         }
         const jsonLd2 = {
@@ -108,18 +108,18 @@ export default async function Video({ params }: PageProps) {
         headline: `Bokep ${file.title}`,
         image: file.splash_img,
         description: `Video Bokep ${file.title} di ${SITENAME} Video Bokep Indo Bocil Ngentot Jilbab Smp Mama Viral`,
-        url: `https://bociltocil.pages.dev/v/${file.filecode}`,
+        url: `https://bokepranum.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://bociltocil.pages.dev/favicon.ico'},
+            logo: 'https://bokepranum.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://bociltocil.pages.dev'
+                url: 'https://bokepranum.pages.dev'
               }
         }
         
